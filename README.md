@@ -15,10 +15,10 @@ truffle compile
 
 ## Tests
 
-Start ganache-cli and run tests:
+Start ganache-cli in one terminal and run tests in another terminal:
 ```
-npm run ganache-cli
-npm run test
+ganache-cli
+truffle test
 ```
 
 ## Contracts on Rinkeby
